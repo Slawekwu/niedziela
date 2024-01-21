@@ -1,0 +1,25 @@
+[
+  {
+   "pytanie:": "w którym python?",
+   "a":1986,
+   "b":1991,
+   "c":1995,
+   "d":2000,
+   "prawidłowa odpowidz":"b"
+  },
+  {
+  "pytanie:": "którą planeta od słonca jest ziemia?",
+   "a":1,
+   "b":2,
+   "c":3,
+   "d":4,
+  "prawidłowa odpowiedż":"c"
+  },
+  {
+    "pytanie:": "który aktor pierwszy zagrał bonda",
+   "a":"Sean Connery",
+   "b":"Roger Moore",
+   "c":"Timothy Dalton",
+   "d":"Pierce Brosnan",
+  "prawidlowa odpowiedż":"a"
+  }]
