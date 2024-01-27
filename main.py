@@ -33,11 +33,11 @@ def show_question(question):
     #     show_question(questions[i])
     answer = input("Ktorą odpowiedź wybierasz? ")
 
-    if answer == question["prawidlowa odpowiedz"]:
+    if answer == question["prawidłowa odpowiedź"]:
         points += 1
         print("To prawidłowa odpowiedź, brawo! Masz już", points, "punktów.")
     else:
-        print("Niestety to zła odpowiedź, prawidłowa odpowiedź to " + question["prawidlowa odpowiedz"] + ".")
+        print("Niestety to zła odpowiedź, prawidłowa odpowiedź to " + question["prawidłowa odpowiedź"] + ".")
 
 
 with open("quiz.json", encoding="utf-8") as json_file:
