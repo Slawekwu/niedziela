@@ -40,7 +40,7 @@ def show_question(question):
         print("Niestety to zła odpowiedź, prawidłowa odpowiedź to " + question["prawidlowa odpowiedz"] + ".")
 
 
-with open("quiz.json") as json_file:
+with open("quiz.json", encoding="utf-8") as json_file:
     questions = json.load(json_file)
 
     for i in range(0, len(questions)):
